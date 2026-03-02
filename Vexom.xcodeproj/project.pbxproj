@@ -13,6 +13,7 @@
 		BB13156D2F5014E900CB59B2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13156C2F5014E900CB59B2 /* SwiftUI.framework */; };
 		BB13157C2F5014EB00CB59B2 /* VexomIslandExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB1315682F5014E900CB59B2 /* VexomIslandExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BB1315B32F50F70100CB59B2 /* VexomShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB1315A92F50F70100CB59B2 /* VexomShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB1315C72F5533AD00CB59B2 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1315C62F5533AD00CB59B2 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BB13156C2F5014E900CB59B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		BB13158D2F50E81D00CB59B2 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		BB1315A92F50F70100CB59B2 /* VexomShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VexomShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1315C62F5533AD00CB59B2 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -152,6 +154,7 @@
 		BB1315192F4F51A700CB59B2 = {
 			isa = PBXGroup;
 			children = (
+				BB1315C62F5533AD00CB59B2 /* Secrets.swift */,
 				BB1315242F4F51A700CB59B2 /* Vexom */,
 				BB13156E2F5014E900CB59B2 /* VexomIsland */,
 				BB13158F2F50E81D00CB59B2 /* VexomAction */,
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1315C72F5533AD00CB59B2 /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

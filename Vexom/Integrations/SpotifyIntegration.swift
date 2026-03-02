@@ -6,8 +6,8 @@ class SpotifyIntegration: NSObject, ObservableObject {
     static let shared = SpotifyIntegration()
     
     // Paste your Spotify credentials here
-    private let clientID = "YOUR_SPOTIFY_CLIENT_ID"
-    private let clientSecret = "YOUR_SPOTIFY_CLIENT_SECRET"
+    private let clientID = Secrets.spotifyClientID
+    private let clientSecret = Secrets.spotifyClientSecret
     private let redirectURI = "vexom://spotify-callback"
     
     @Published var isConnected = false
