@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1315482F4F5DEF00CB59B2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BB1315472F4F5DEF00CB59B2 /* GoogleSignIn */; };
+		BB13154A2F4F5DEF00CB59B2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB1315492F4F5DEF00CB59B2 /* GoogleSignInSwift */; };
+		BB13156B2F5014E900CB59B2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13156A2F5014E900CB59B2 /* WidgetKit.framework */; };
+		BB13156D2F5014E900CB59B2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13156C2F5014E900CB59B2 /* SwiftUI.framework */; };
+		BB13157C2F5014EB00CB59B2 /* VexomIslandExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB1315682F5014E900CB59B2 /* VexomIslandExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB1315B32F50F70100CB59B2 /* VexomShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB1315A92F50F70100CB59B2 /* VexomShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB13157A2F5014EB00CB59B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB13151A2F4F51A700CB59B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1315672F5014E900CB59B2;
+			remoteInfo = VexomIslandExtension;
+		};
+		BB1315B12F50F70100CB59B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB13151A2F4F51A700CB59B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1315A82F50F70100CB59B2;
+			remoteInfo = VexomShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB1315812F5014EB00CB59B2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB1315B32F50F70100CB59B2 /* VexomShare.appex in Embed Foundation Extensions */,
+				BB13157C2F5014EB00CB59B2 /* VexomIslandExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB1315222F4F51A700CB59B2 /* Vexom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vexom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1315682F5014E900CB59B2 /* VexomIslandExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VexomIslandExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB13156A2F5014E900CB59B2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BB13156C2F5014E900CB59B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BB13158D2F50E81D00CB59B2 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		BB1315A92F50F70100CB59B2 /* VexomShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VexomShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB1315582F4F975500CB59B2 /* Exceptions for "Vexom" folder in "Vexom" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB1315212F4F51A700CB59B2 /* Vexom */;
+		};
+		BB1315802F5014EB00CB59B2 /* Exceptions for "VexomIsland" folder in "VexomIslandExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB1315672F5014E900CB59B2 /* VexomIslandExtension */;
+		};
+		BB1315852F50176100CB59B2 /* Exceptions for "VexomIsland" folder in "Vexom" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				VexomIsland.swift,
+			);
+			target = BB1315212F4F51A700CB59B2 /* Vexom */;
+		};
+		BB1315B72F50F70100CB59B2 /* Exceptions for "VexomShare" folder in "VexomShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB1315A82F50F70100CB59B2 /* VexomShare */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB1315242F4F51A700CB59B2 /* Vexom */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB1315582F4F975500CB59B2 /* Exceptions for "Vexom" folder in "Vexom" target */,
+			);
+			path = Vexom;
+			sourceTree = "<group>";
+		};
+		BB13156E2F5014E900CB59B2 /* VexomIsland */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB1315852F50176100CB59B2 /* Exceptions for "VexomIsland" folder in "Vexom" target */,
+				BB1315802F5014EB00CB59B2 /* Exceptions for "VexomIsland" folder in "VexomIslandExtension" target */,
+			);
+			path = VexomIsland;
+			sourceTree = "<group>";
+		};
+		BB13158F2F50E81D00CB59B2 /* VexomAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VexomAction;
+			sourceTree = "<group>";
+		};
+		BB1315AA2F50F70100CB59B2 /* VexomShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB1315B72F50F70100CB59B2 /* Exceptions for "VexomShare" folder in "VexomShare" target */,
+			);
+			path = VexomShare;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB13151F2F4F51A700CB59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1315482F4F5DEF00CB59B2 /* GoogleSignIn in Frameworks */,
+				BB13154A2F4F5DEF00CB59B2 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315652F5014E900CB59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB13156D2F5014E900CB59B2 /* SwiftUI.framework in Frameworks */,
+				BB13156B2F5014E900CB59B2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315A62F50F70100CB59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1315192F4F51A700CB59B2 = {
+			isa = PBXGroup;
+			children = (
+				BB1315242F4F51A700CB59B2 /* Vexom */,
+				BB13156E2F5014E900CB59B2 /* VexomIsland */,
+				BB13158F2F50E81D00CB59B2 /* VexomAction */,
+				BB1315AA2F50F70100CB59B2 /* VexomShare */,
+				BB1315692F5014E900CB59B2 /* Frameworks */,
+				BB1315232F4F51A700CB59B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1315232F4F51A700CB59B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1315222F4F51A700CB59B2 /* Vexom.app */,
+				BB1315682F5014E900CB59B2 /* VexomIslandExtension.appex */,
+				BB1315A92F50F70100CB59B2 /* VexomShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1315692F5014E900CB59B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB13156A2F5014E900CB59B2 /* WidgetKit.framework */,
+				BB13156C2F5014E900CB59B2 /* SwiftUI.framework */,
+				BB13158D2F50E81D00CB59B2 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1315212F4F51A700CB59B2 /* Vexom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB13152D2F4F51A900CB59B2 /* Build configuration list for PBXNativeTarget "Vexom" */;
+			buildPhases = (
+				BB13151E2F4F51A700CB59B2 /* Sources */,
+				BB13151F2F4F51A700CB59B2 /* Frameworks */,
+				BB1315202F4F51A700CB59B2 /* Resources */,
+				BB1315812F5014EB00CB59B2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB13157B2F5014EB00CB59B2 /* PBXTargetDependency */,
+				BB1315B22F50F70100CB59B2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB1315242F4F51A700CB59B2 /* Vexom */,
+			);
+			name = Vexom;
+			packageProductDependencies = (
+				BB1315472F4F5DEF00CB59B2 /* GoogleSignIn */,
+				BB1315492F4F5DEF00CB59B2 /* GoogleSignInSwift */,
+			);
+			productName = Vexom;
+			productReference = BB1315222F4F51A700CB59B2 /* Vexom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1315672F5014E900CB59B2 /* VexomIslandExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB13157D2F5014EB00CB59B2 /* Build configuration list for PBXNativeTarget "VexomIslandExtension" */;
+			buildPhases = (
+				BB1315642F5014E900CB59B2 /* Sources */,
+				BB1315652F5014E900CB59B2 /* Frameworks */,
+				BB1315662F5014E900CB59B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB13156E2F5014E900CB59B2 /* VexomIsland */,
+			);
+			name = VexomIslandExtension;
+			packageProductDependencies = (
+			);
+			productName = VexomIslandExtension;
+			productReference = BB1315682F5014E900CB59B2 /* VexomIslandExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BB1315A82F50F70100CB59B2 /* VexomShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1315B42F50F70100CB59B2 /* Build configuration list for PBXNativeTarget "VexomShare" */;
+			buildPhases = (
+				BB1315A52F50F70100CB59B2 /* Sources */,
+				BB1315A62F50F70100CB59B2 /* Frameworks */,
+				BB1315A72F50F70100CB59B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB1315AA2F50F70100CB59B2 /* VexomShare */,
+			);
+			name = VexomShare;
+			packageProductDependencies = (
+			);
+			productName = VexomShare;
+			productReference = BB1315A92F50F70100CB59B2 /* VexomShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB13151A2F4F51A700CB59B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					BB1315212F4F51A700CB59B2 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BB1315672F5014E900CB59B2 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BB1315A82F50F70100CB59B2 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = BB13151D2F4F51A700CB59B2 /* Build configuration list for PBXProject "Vexom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1315192F4F51A700CB59B2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB1315462F4F5DEF00CB59B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB1315232F4F51A700CB59B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1315212F4F51A700CB59B2 /* Vexom */,
+				BB1315672F5014E900CB59B2 /* VexomIslandExtension */,
+				BB1315A82F50F70100CB59B2 /* VexomShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1315202F4F51A700CB59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315662F5014E900CB59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315A72F50F70100CB59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB13151E2F4F51A700CB59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315642F5014E900CB59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1315A52F50F70100CB59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB13157B2F5014EB00CB59B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1315672F5014E900CB59B2 /* VexomIslandExtension */;
+			targetProxy = BB13157A2F5014EB00CB59B2 /* PBXContainerItemProxy */;
+		};
+		BB1315B22F50F70100CB59B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1315A82F50F70100CB59B2 /* VexomShare */;
+			targetProxy = BB1315B12F50F70100CB59B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB13152B2F4F51A900CB59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB13152C2F4F51A900CB59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB13152E2F4F51A900CB59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vexom/Vexom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vexom/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Vexom needs calendar access to help you plan your day";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vexom uses your camera to read notes, meetings, and contacts";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Vexom uses Face ID to secure your personal AI";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vexom uses your microphone to transcribe lectures and meetings";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Vexom needs reminders access to track your tasks";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Vexom uses speech recognition to convert lectures to notes";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB13152F2F4F51A900CB59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vexom/Vexom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vexom/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Vexom needs calendar access to help you plan your day";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vexom uses your camera to read notes, meetings, and contacts";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Vexom uses Face ID to secure your personal AI";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vexom uses your microphone to transcribe lectures and meetings";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Vexom needs reminders access to track your tasks";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Vexom uses speech recognition to convert lectures to notes";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB13157E2F5014EB00CB59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VexomIsland/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VexomIsland;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom.VexomIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB13157F2F5014EB00CB59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VexomIsland/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VexomIsland;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom.VexomIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB1315B52F50F70100CB59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VexomShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VexomShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom.VexomShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1315B62F50F70100CB59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L7XQ2C7R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VexomShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VexomShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monish.Vexom.VexomShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB13151D2F4F51A700CB59B2 /* Build configuration list for PBXProject "Vexom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13152B2F4F51A900CB59B2 /* Debug */,
+				BB13152C2F4F51A900CB59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB13152D2F4F51A900CB59B2 /* Build configuration list for PBXNativeTarget "Vexom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13152E2F4F51A900CB59B2 /* Debug */,
+				BB13152F2F4F51A900CB59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB13157D2F5014EB00CB59B2 /* Build configuration list for PBXNativeTarget "VexomIslandExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13157E2F5014EB00CB59B2 /* Debug */,
+				BB13157F2F5014EB00CB59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1315B42F50F70100CB59B2 /* Build configuration list for PBXNativeTarget "VexomShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1315B52F50F70100CB59B2 /* Debug */,
+				BB1315B62F50F70100CB59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB1315462F4F5DEF00CB59B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB1315472F4F5DEF00CB59B2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB1315462F4F5DEF00CB59B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BB1315492F4F5DEF00CB59B2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB1315462F4F5DEF00CB59B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB13151A2F4F51A700CB59B2 /* Project object */;
+}
